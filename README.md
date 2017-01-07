@@ -1,5 +1,5 @@
 # Unique Word Counter
-A script to count all unique words in a document.    
+A script to count all unique words in a document. Works with unicode!    
 
 ### Prerequisite   
 python 3   
