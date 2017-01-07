@@ -1,7 +1,7 @@
 # Unique Word Counter
 A script to count all unique words in a document.    
 
-### Prequisite   
+### Prerequisite   
 python 3   
     
 ### Sample Usage
@@ -10,4 +10,4 @@ cd unique-words-counter
 python3 count.py sample.txt   
 
 In case you want to add more characters to clean-up around words, include them in the program.   
-For more details, the code is heavily commented.
+Details can be found in the code as it is heavily documented.
