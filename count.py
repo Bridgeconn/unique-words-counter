@@ -41,7 +41,7 @@ def count():
         for k in kv:
             entries.append((k, kv[k]))
     # Sort the array
-    entries = sorted(entries, key=lambda x: x[1])
+    entries = sorted(entries, key=lambda x: x[1], reverse=True)
 
     # Finally write out the words and their frequencies
     with codecs.open(filePath + '.tab', 'w', 'utf-8') as w:
