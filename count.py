@@ -44,7 +44,7 @@ def count():
     entries = sorted(entries, key=lambda x: x[1])
 
     # Finally write out the words and their frequencies
-    with codecs.open(filePath + '.out', 'w', 'utf-8') as w:
+    with codecs.open(filePath + '.tab', 'w', 'utf-8') as w:
         for e in entries:
             w.write(e[0])
             w.write('\t')
