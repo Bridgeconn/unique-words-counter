@@ -3,7 +3,7 @@ A script to count all unique words in a document.
 
 ### Prequisite   
 python 3   
-
+    
 ### Sample Usage
 git clone https://github.com/Bridgeconn/unique-words-counter.git   
 cd unique-words-counter   
